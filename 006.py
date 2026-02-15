@@ -1,0 +1,14 @@
+var1 = float(10)
+var2 = float(20)
+var3 = float(5)      
+var4 = float(50)
+result1 = var1 + var1
+result2 = var2 - var2
+result3 = var3 * var1
+result4 = var4 / var3
+result5 = (var2 * var3) + var4 
+print(f"ผลลัพธ์ข้อ 1: ({var1} + {var1}) = {result1}")
+print(f"ผลลัพธ์ข้อ 2: ({var2} - {var2}) = {result2}")
+print(f"ผลลัพธ์ข้อ 3: ({var3} * {var1}) = {result3}")
+print(f"ผลลัพธ์ข้อ 4: ({var4} / {var3}) = {result4}")
+print(f"ผลลัพธ์ข้อ 5: ({var2} * {var3} + {var4}) = {result5}")
